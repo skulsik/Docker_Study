@@ -1,22 +1,22 @@
 # Docker_Study
 
-Установка джанги
+Установка джанги - 
 pip install django
 
-Создание приложения
+Создание приложения - 
 django-admin startproject app
 
-Применение миграций
+Применение миграций - 
 ./manage.py migrate
 
-Запуск сервера
+Запуск сервера - 
 ./manage.py runserver
 
-Запуск постгрес
+Запуск постгрес - 
 docker run -e POSTGRES_PASSWORD=12345 -p 5432:5432 -v C:\Users\Skulsik\pg_data:/var/lib/postgresql/data postgres
 
-Проверка существования контейнера
+Проверка существования контейнера - 
 docker ps
 
-Подключение к контейнеру
+Подключение к контейнеру - 
 docker exec -it 46c24c2b6466 psql -U postgres
