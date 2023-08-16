@@ -1,5 +1,8 @@
 # Docker_Study
 
+Запуск Python контейнера - 
+docker run --network host -it python bash
+
 Установка джанги - 
 pip install django
 
